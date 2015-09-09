@@ -4,13 +4,10 @@ Go library for the [Hacker News API](https://github.com/HackerNews/API)
 
 This fork consists of ask, jobs & show stories which is not present on the original repo currently.
 
-[![GoDoc](https://godoc.org/github.com/peterhellberg/hn?status.svg)](https://godoc.org/github.com/peterhellberg/hn)
-[![Build Status](https://travis-ci.org/peterhellberg/hn.svg?branch=master)](https://travis-ci.org/peterhellberg/hn)
-[![License MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/peterhellberg/hn#license-mit)
-
 ## Installation
 
 ```bash
+# original
 go get -u github.com/peterhellberg/hn
 
 OR
