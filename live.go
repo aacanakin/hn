@@ -56,7 +56,7 @@ func (c *Client) AskStories() ([]int, error) {
 }
 
 func (c *Client) JobStories() ([]int, error) {
-	return c.Live.GetStories(STORY_TYPE_ASK)
+	return c.Live.GetStories(STORY_TYPE_SHOW)
 }
 
 func (c *Client) ShowStories() ([]int, error) {
